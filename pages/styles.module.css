@@ -1,0 +1,139 @@
+.nav {
+    background-color:#181717;
+    width: 200px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navHead {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    color: white;
+}
+
+.navList {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    
+}
+
+.navListItem {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navListItem:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.signOut {
+    background-color: rgb(40, 37, 53);
+    width: 80%;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.signOut:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(40, 37, 53);
+}
+
+.chatRoom {
+    flex: 1;
+    margin: 30px;
+    padding-bottom: 40px;
+}
+
+.body {
+    overflow-y: scroll;
+}
+
+.message {
+    max-width: 1000px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    text-align: center;
+    background: #e5e5ea;
+}
+
+.sent {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+.received {
+    display: flex;
+    align-items: center;
+    color: black; 
+}
+
+.chatbot {
+    display: flex;
+    align-items: center;
+    color: black; 
+}
+
+.userProfile {
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 2px 5px;
+}
+
+.form {
+    height: 5vh;
+    padding-top: 20vh;
+    padding-bottom: 20px;
+    bottom: 0;
+    display: flex;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 82vw;
+    max-width: 100%;
+}
+
+.formButton {
+    border: none;
+    color: rgb(168, 166, 166);
+    background-color:rgb(58, 58, 58);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.formInput {
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.5rem;
+    background: rgb(58, 58, 58);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 20px;
+}
