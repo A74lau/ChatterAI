@@ -36,3 +36,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## GETTING STARTED
+
+1) Under the firebase folder, select the file clientApp.ts and replace the 'firebaseConfig()' function with the firebase configuration of your own database.
+2) Under the pages folder, select the index.js file and enter your openAI API key.
+
+Then you're ready to go!
